@@ -703,8 +703,8 @@
 	#main {
 		position: relative;
 		max-width: 100%;
-		max-width: 1200;
-		min-width: 50em;
+		max-width: 1500;
+		min-width: 100em;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
