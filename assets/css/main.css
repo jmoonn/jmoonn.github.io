@@ -702,8 +702,8 @@
 
 	#main {
 		position: relative;
-		max-width: 1300em;
-		min-width: 1000em;
+		max-width: 1100em;
+		min-width: 600em;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
@@ -765,7 +765,7 @@
 		}
 
 		body.is-loading #main {
-			opacity: 0;
+			opacity: 2;
 			-moz-transform: rotateX(15deg);
 			-webkit-transform: rotateX(15deg);
 			-ms-transform: rotateX(15deg);
