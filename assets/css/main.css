@@ -702,13 +702,13 @@
 
 	#main {
 		position: relative;
-		max-width: 1000em;
-		min-width: 50em;
+		max-width: 1300em;
+		min-width: 1000em;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
-		opacity: 3.00;
+		opacity: 10;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
