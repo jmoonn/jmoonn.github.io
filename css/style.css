@@ -59,11 +59,11 @@ footer {
 }
 
 .navbar-left ul li a.enabled {
-	color: #FFFFFF;
+	color: #transparent;
 }
 
 .navbar-left .enabled .arrow {
-	background-color: #333334;
+	background-color: #transparent;
     border: none;
     width: 15px;
     height: 15px;
