@@ -72,7 +72,7 @@ body{
 }
 
 h1, h2, h3, h4, h5 ,h6{
-    color: #626262;
+    color: #000000;
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
 }
@@ -112,8 +112,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.light{
-    background: url('../img/IMG_0277.JPG
-		') no-repeat;
+    background: url('../img/billboard.jpg') no-repeat;
 
     background-size: cover;
     -webkit-background-size: cover;
@@ -122,7 +121,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/billboard2.jpg') no-repeat;
+    background: url('../img/IMG_0277.JPG') no-repeat;
 
     background-size: cover;
     -webkit-background-size: cover;
@@ -130,7 +129,7 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover;
 }
 
-
+/*
 .billboard .shadow{
     position: absolute;
     width: 100%;
@@ -140,6 +139,7 @@ h5, h6          { font-weight: bolder }
     margin-bottom: -1px;
     background: url('../img/shadow.png') repeat-x;
 }
+*/
 
 .billboard .caption{
     margin-top: 130px;
@@ -166,7 +166,8 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.dark h1{
-    color: #5d5d5d;
+    color: #EEEEEE;
+		text-shadow: 2px 2px #000000;
 }
 
 .billboard .caption p{
@@ -180,7 +181,8 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.dark p{
-    color: #5d5d5d;
+    color: #EEEEEE;
+		text-shadow: 2px 2px #000000;
 }
 
 .billboard .caption hr{
@@ -262,7 +264,7 @@ header.dark nav ul li a:hover{
 
 
 
-/*    Services    */
+/*    Services
 .services ul{
     margin-top: 100px;
 }
@@ -305,7 +307,7 @@ header.dark nav ul li a:hover{
     letter-spacing: .5px;
 }
 
-
+*/
 
 
 
@@ -318,11 +320,13 @@ header.dark nav ul li a:hover{
     height: 350px;
     text-align: center;
     margin-top: 100px;
-    background: url('../img/video.jpg') no-repeat;
+    background: url('../img/IMG_8360.JPG') no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+		color: 000000;
+		text-shadow: 2px 2px #000000;
 }
 
 .video .video_logo{
@@ -335,6 +339,7 @@ header.dark nav ul li a:hover{
     font-size: 14px;
     font-weight: normal!important;
     margin: 20px 0 0 0;
+		text-shadow: 2px 2px #000000;
 }
 
 .video #play_btn{
@@ -509,15 +514,15 @@ header.dark nav ul li a:hover{
     display: block;
 }
 
-.blog_posts ul li .media .date .day{
+/*.blog_posts ul li .media .date .year{
     color: #fff;
     font-family: "raleway-bold";
     font-size: 18px;
     font-weight: bold;
 
 }
-
-.blog_posts ul li .media .date .month{
+*/
+.blog_posts ul li .media .date .year{
     color: #fff;
     font-family: "raleway-regular";
     font-size: 12px;
