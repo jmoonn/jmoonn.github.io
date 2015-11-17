@@ -313,7 +313,7 @@ header.dark nav ul li a:hover{
 
 
 
-/*    Video    */
+/*    Resume    */
 .video{
     display: block;
     width: 100%;
@@ -493,8 +493,9 @@ header.dark nav ul li a:hover{
 }
 
 .blog_posts ul li:first-child{
-    margin-left: 0;
+    margin-left: 150px;
 }
+/* somehow fix aboove to be relative center */
 
 .blog_posts ul li .media .date{
     position: absolute;
