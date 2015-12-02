@@ -214,24 +214,23 @@ header{
 }
 
 header .logo{
-    float: left;
+    float: right;
     margin-top: 50px;
 }
 
-header nav{
+header .fixed-nav-bar{
     float: right;
     margin-top: 57px;
 }
 
 
-header nav ul li{
+header .fixed-nav-bar ul li{
     list-style: none;
-    display: block;
-    float: left;
-    margin-left: 50px;
+    display: absolute;
+    float: right;
 }
 
-header nav ul li a{
+header .fixed-nav-bar ul li a{
     text-decoration: none;
     font-family: "raleway-regular";
     font-size: 14px;
@@ -242,23 +241,25 @@ header nav ul li a{
     -o-transition:all .2s linear;
 }
 
-header.light nav ul li a{
+header.light .fixed-nav-bar ul li a{
     color: #fff;
 }
 
-header.light nav ul li a:hover{
+header.light .fixed-nav-bar ul li a:hover{
     color: #B9B9B9;
 }
 
-header.dark nav ul li a{
+header.dark .fixed-nav-bar ul li a{
     color: #5d5d5d;
 }
 
-header.dark nav ul li a:hover{
+header.dark .fixed-nav-bar ul li a:hover{
     color: #919191;
 }
 
-
+.fixed-nav-bar {
+  position: fixed;
+}
 
 
 
