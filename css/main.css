@@ -22,7 +22,7 @@
 
 
 
-/*  Fonts  */
+/*  Fonts
 @font-face {
     font-family: 'raleway-regular';
     src: url('../fonts/raleway-regular.eot');
@@ -57,7 +57,7 @@
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
 
 
@@ -73,7 +73,7 @@ body{
 
 h1, h2, h3, h4, h5 ,h6{
     color: #000000;
-    font-family: "raleway-regular", arial;
+    font-family: 'Pragati Narrow', sans-serif;;
     letter-spacing: 1px;
 }
 
@@ -155,7 +155,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption h1{
-    font-family: "raleway-bold";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -171,9 +171,8 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption p{
-    font-family: "raleway-regular";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 18px;
-    margin-bottom: 30px;
 }
 
 .billboard .caption.light p{
@@ -227,12 +226,11 @@ header .fixed-nav-bar{
 header .fixed-nav-bar ul li{
     list-style: none;
     display: absolute;
-    float: right;
 }
 
 header .fixed-nav-bar ul li a{
     text-decoration: none;
-    font-family: "raleway-regular";
+    font-family: 'Pragati Narrow', sans-serif;
     font-size: 14px;
 
     transition:all .2s linear;
@@ -259,11 +257,9 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .fixed-nav-bar {
   position: fixed;
-  text-align: left;
-  margin-left: 5px;
   background-color: white;
   width:130px;
-  opacity:0.5;
+  opacity:0.4;
 }
 
 
@@ -321,6 +317,7 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 /*    Resume    */
 .video{
+    margin-top: -100px
     display: block;
     width: 100%;
     height: 250px;
@@ -338,7 +335,7 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .video h3{
     color: #fff;
-    font-family: "raleway-regular";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 14px;
     font-weight: normal!important;
     margin: 0 0 0 0;
@@ -350,7 +347,7 @@ header.dark .fixed-nav-bar ul li a:hover{
     width: 71px;
     height: 71px;
     background: url('../img/play_btn.png') no-repeat;
-    margin-top: 40px;
+    margin-top: -100px;
 }
 
 
@@ -363,7 +360,7 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .title h2{
     color: #616161;
-    font-family: "raleway-bold";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 30px;
     font-weight: bold;
     margin: 0 0 20px 0;
@@ -372,7 +369,7 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .title h3{
     color: #9b9b9b;
-    font-family: "raleway-regular";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 14px;
     margin: 0 0 20px 0;
     font-weight: normal!important;
@@ -421,7 +418,7 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .testimonials ul li p{
     color: #838181;
-    font-family: "raleway-regular";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: .5px;
@@ -460,7 +457,7 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .testimonials ul li .client .client_details h4{
     color: #7b7979;
-    font-family: "raleway-semibold";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 14px;
     font-weight: bold;
     margin: 0 0 10px 0;
@@ -514,23 +511,7 @@ header.dark .fixed-nav-bar ul li a:hover{
     text-align: center;
 }
 
-.blog_posts ul li .media .date span{
-    display: block;
-}
 
-/*.blog_posts ul li .media .date .year{
-    color: #fff;
-    font-family: "raleway-bold";
-    font-size: 18px;
-    font-weight: bold;
-
-}
-*/
-.blog_posts ul li .media .date .year{
-    color: #fff;
-    font-family: "raleway-regular";
-    font-size: 12px;
-}
 
 .blog_posts ul li .media{
     width: 230px;
@@ -563,7 +544,7 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .WORKWITHME h2{
     color: #616161;
-    font-family: "raleway-bold";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 30px;
     font-weight: bold;
     margin: 0 0 20px 0;
@@ -598,7 +579,7 @@ footer .rights p{
 
 footer .rights p a{
     color: #777;
-    font-family: "raleway-semibold";
+    font-family: 'Pragati Narrow', sans-serif;;
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
