@@ -259,6 +259,11 @@ header.dark .fixed-nav-bar ul li a:hover{
 
 .fixed-nav-bar {
   position: fixed;
+  text-align: left;
+  margin-left: 5px;
+  background-color: white;
+  width:130px;
+  opacity:0.5;
 }
 
 
@@ -320,7 +325,8 @@ header.dark .fixed-nav-bar ul li a:hover{
     width: 100%;
     height: 250px;
     text-align: center;
-    background: url('../img/IMG_8360.JPG') no-repeat;
+    background: url('../img/IMG_0056.JPG');
+    background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
