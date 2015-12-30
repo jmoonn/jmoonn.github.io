@@ -784,13 +784,13 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 .btn-outline {
-  border: 2px solid #eaeaea !important;
+  border: 1px solid #D56F80 !important;
   background: transparent;
-  color: #2a2e37;
+  color: #D56F80;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline:focus {
-  border: 2px solid #282e3c !important;
-  background: #282e3c;
+  border: 2px solid #F15156 !important;
+  background: #F15156;
   color: #ffffff;
 }
 
@@ -1286,4 +1286,12 @@ a > img.fh5co-align-center {
   color: #7b7b7b;
 }
 
+a {
+    color: #F15156;
+}
+
+a:hover{
+  font-weight: bold;
+  color: #F15156;
+}
 /*# sourceMappingURL=style.css.map */
