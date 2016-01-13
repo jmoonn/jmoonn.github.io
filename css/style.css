@@ -69,7 +69,7 @@ figure.fh5co-with-caption figcaption {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 0 0 20px 0;
   padding: 0;
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -230,7 +230,7 @@ ul ul, ul ol, ol ul, ol ol {
 
 .fh5co-section-title .fh5co-title,
 .fh5co-page-title .fh5co-title {
-  font-family: font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 30px;
   line-height:40px;
   display: inline-block;
@@ -746,7 +746,7 @@ ul ul, ul ol, ol ul, ol ol {
 
 /* Buttons */
 .btn {
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   border-bottom: none !important;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -953,7 +953,7 @@ ul ul, ul ol, ol ul, ol ol {
 .fh5co-call-to-action .fh5co-call-to-action-text {
   font-size: 50px;
   line-height: 60px;
-  font-family: font-family: 'Cabin Condensed', sans-serif;
+  font-family: font-family: 'Fira Sans', sans-serif;
   text-transform: uppercase;
 }
 .fh5co-call-to-action .btn {
@@ -1138,7 +1138,7 @@ a > img.fh5co-align-center {
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
-  transform: font-family: 'Cabin Condensed', sans-serif;ate(90deg);
+  transform: font-family: 'Fira Sans', sans-serif;;ate(90deg);
 }
 
 /* Easy Rsponsive Tabs */
@@ -1152,7 +1152,7 @@ a > img.fh5co-align-center {
 }
 
 .resp-tabs-list li {
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .resp-content-active, .resp-accordion-active {
@@ -1173,7 +1173,7 @@ a > img.fh5co-align-center {
 
 /* Pricing Tables */
 .fh5co-pricing-table-1 {
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 @media screen and (max-width: 992px) {
   .fh5co-pricing-table-1 .fh5co-pricing-table-item {
@@ -1249,7 +1249,7 @@ a > img.fh5co-align-center {
 }
 
 .fh5co-link {
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 .fh5co-link > i {
   margin-right: 5px;
