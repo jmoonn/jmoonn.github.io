@@ -164,7 +164,7 @@ ul ul, ul ol, ol ul, ol ol {
   padding-right: 20px;
 }
 #fh5co-header #fh5co-nav li a {
-  font-weight: 700;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 13px;
   letter-spacing: 1px;
   color: #2e2e2e;
@@ -286,7 +286,6 @@ ul ul, ul ol, ol ul, ol ol {
   float: left;
   width: 100%;
   background: #f5f8f5;
-  margin-bottom: 4em;
 }
 .fh5co-half .fh5co-50 {
   height: 650px;
@@ -295,6 +294,7 @@ ul ul, ul ol, ol ul, ol ol {
 .fh5co-half .fh5co-right {
   float: right;
   display: table;
+  margin-top: -3em;
 }
 .fh5co-half .fh5co-text {
   display: table-cell;
@@ -396,17 +396,21 @@ ul ul, ul ol, ol ul, ol ol {
 }
 #fh5co-footer .fh5co-copyright {
   font-size: 13px;
+  justify-content: center;
 }
 #fh5co-footer .fh5co-footer-widget {
   margin-bottom: 10px;
+  justify-content: center;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-footer-widget {
     margin-bottom: 30px;
+    justify-content: center;
   }
 }
 #fh5co-footer .fh5co-copyright {
   color: #7b7b7b;
+  justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
