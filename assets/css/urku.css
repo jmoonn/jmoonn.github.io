@@ -1433,6 +1433,11 @@ body {
 
 }
 
+.post-inside-3 {
+  background-image: url("../img/local/local.jpg");
+  margin-top: -11em;
+}
+
 #layout-grid:checked ~ .rk-portfolio,
 #layout-grid:checked ~ .rk-blog {
   -webkit-animation: op2 .5s;
